@@ -1,4 +1,4 @@
-package txstate.edu.amb309.customerapp;
+//package [your package name here];
 
 public class Customer {
     private int id;
@@ -58,11 +58,10 @@ public class Customer {
         this.type = type;
     }
 
-    //@androidx.annotation.NonNull
+    //Override toString method that return customer ID and last name on list of customer in MainActivity (1st screen)
     @Override
     public String toString() {
-        //return super.toString();
-
+        //return super.toString(); //comment out default
         return "ID " + id + " - " + lastName ;
     }
 }
