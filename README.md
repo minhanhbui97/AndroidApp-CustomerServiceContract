@@ -14,3 +14,21 @@ The app consists of 2 pages (2 Activity: MainActivity & CustomerInfoActivity), a
 
 - The monthly fees are $11.05 and $20.25 for the residential and commercial customers, respectively.
 - Total contract cost = the number of months × monthly fee.
+
+**Here are list of 5 customers that will need to be displayed in the 1st page (MainActivity)**
+| ID  | FirstName| LastName | Age  |Type  |
+| ----|:---------|:---------|:-----|:-----|
+| 101 |John      |Wilson    |17    |R     |
+| 102 |Peter     |Smith     |19    |C     |
+| 103 |Sam       |Will      |30    |C     |
+| 104 |Anna      |Anderson  |15    |R     |
+| 105 |Jacob     |Billy     |23    |R     |
+
+```
+    int[] intIDs = {101, 102, 103, 104, 105};
+    String[] strFirstNames = {"John", "Peter", "Sam", "Anna", "Jacob"};
+    String[] strLastNames = {"Wilson", "Smith", "Will", "Anderson", "Billy"};
+    int[] intAges = {17, 19, 30, 15, 23};
+    String[] strType = {"R", "C", "C", "R", "R"};
+    
+    ```
