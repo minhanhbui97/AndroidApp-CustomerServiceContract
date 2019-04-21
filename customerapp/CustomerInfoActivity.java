@@ -1,4 +1,4 @@
-package txstate.edu.amb309.customerapp;
+//package [your package name here];
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
