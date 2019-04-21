@@ -1,10 +1,10 @@
-package txstate.edu.amb309.customerapp;
+//package [your package name here];
 
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -14,7 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends ListActivity {
+public class MainActivity extends ListActivity { //comment out AppCompatActivity
 
     int[] intIDs = {101, 102, 103, 104, 105};
     String[] strFirstNames = {"John", "Peter", "Sam", "Anna", "Jacob"};
@@ -27,7 +27,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main); //comment out default
 
         customersList = new ArrayList<Customer>();
         for(int i = 0; i < strLastNames.length; i++){
